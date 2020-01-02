@@ -1,0 +1,150 @@
+body {
+   font-family: Tahoma ;
+   font-size: 13px;
+    width: 1000px;
+    margin: 0px auto;
+}
+
+#Menu_top {
+    background : #055699;
+    height: 40px;
+}
+
+#banner {
+    height: auto;
+    width: 1000px;
+}
+
+#Main #left {
+    width: 200px;
+    background: #ccc;
+    min-height: 400px;
+    float: left;
+}
+
+#Main #between {
+    width: 600px;
+    min-height: 400px;
+    float: left;
+}
+
+#Main #right {
+    width: 200px;
+    background: #98acbd;
+    min-height: 400px;
+    float: left;
+}
+
+#footer {
+    background: #000;
+    width: 1000px;
+    text-align: center;
+    height: 60px;
+    color: rgb(255, 255, 255);
+    clear: left;
+    line-height: 60px;
+}
+
+#Menu_top ul  {
+    margin: 0px;
+    padding: 0px;
+}
+#Menu_top ul li    {
+    list-style: none;
+    float: left;
+}
+
+#Menu_top ul li a {
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+    padding: 0px 10px 0px 10px;
+    border-right: 1px solid #000;
+}
+
+#banner img {
+    width: 1000px;
+}
+#Main #between ul {
+    margin: 0px;
+    padding: 0px;
+}
+#Main #between ul li {
+    list-style: none;
+    border-bottom: 2px solid #000;
+    float: left;
+    margin-bottom: 20px;
+}
+
+#Main #between ul li img {
+    height: 100px;
+    width: 120px;
+    margin-right: 10px;
+    float: left;
+    margin-bottom: 20px;
+}
+#Main #between ul li h2 {
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+#Main #between ul li p{
+    font-size: 8px  ;
+}
+#Main {
+    margin-top: 20px;
+}
+#Main #right .menu_right ul {
+    margin: 0px;
+    padding: 0px;
+}
+#Main #right .menu_right ul li {
+   list-style: none;
+}
+
+#Main #right .menu_right h3 {
+    background: #194 url(image/danhmuc.png) no-repeat 3px;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFF;
+}
+#Main #left .menu_left ul {
+    margin: 0px;
+    padding: 0px;
+}
+#Main #left .menu_left ul li {
+   list-style: none;
+}
+
+#Main #left .menu_left h3 {
+    background: rgb(112, 82, 221);
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFF;
+}
+#Main #right .menu_right h4 {
+    background: #194 url(image/duan.png) 3px no-repeat;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFF;
+}
+#Main #right .menu_right h5 {
+    background: #194 url(image/images\ \(1\).png) 3px no-repeat;
+    height: 40px;
+    margin-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 40px;
+    color: #FFF;
+}
